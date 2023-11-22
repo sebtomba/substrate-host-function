@@ -2769,6 +2769,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "host"
+version = "0.1.0"
+dependencies = [
+ "sp-runtime-interface",
+]
+
+[[package]]
 name = "hostname"
 version = "0.3.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -4417,6 +4424,7 @@ dependencies = [
  "frame-benchmarking-cli",
  "frame-system",
  "futures",
+ "host",
  "jsonrpsee",
  "node-template-runtime",
  "pallet-transaction-payment",
@@ -4792,6 +4800,7 @@ dependencies = [
  "frame-benchmarking",
  "frame-support",
  "frame-system",
+ "host",
  "parity-scale-codec",
  "scale-info",
  "sp-core",
